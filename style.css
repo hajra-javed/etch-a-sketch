@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    width: 60vh;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content:space-around;
+    flex-basis: 6.25%;
+    width: 100%;
+}
+
+.square{
+    flex-basis: 6.25%;
+    background-color: pink;
+    border: groove 1px palevioletred;
+}
